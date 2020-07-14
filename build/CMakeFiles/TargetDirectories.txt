@@ -1,5 +1,0 @@
-/home/karthik/dev/Server/build/CMakeFiles/rebuild_cache.dir
-/home/karthik/dev/Server/build/CMakeFiles/edit_cache.dir
-/home/karthik/dev/Server/build/CMakeFiles/PathPlanner.dir
-/home/karthik/dev/Server/build/CMakeFiles/ServerTest.dir
-/home/karthik/dev/Server/build/CMakeFiles/check.dir
