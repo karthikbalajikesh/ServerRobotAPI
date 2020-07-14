@@ -105,3 +105,16 @@ void DijkstraPRM::PrintPathDetails() {
 	}
 	cout << "Distance to the destination is " << PathDistance << endl;
 }
+
+vector<pair<float,float>> DijkstraPRM::GetPathVector(){
+	vector<pair<float,float>> Coordinates(Pathway.size(),
+									std::make_pair(0,0));
+	int index = 0;
+	for(auto node:Pathway){
+		Coordinates[index].first = node.zcood;
+		Coordinates[index].second = node.xcood;
+		index+=1;
+	}
+
+	return Coordinates;
+}

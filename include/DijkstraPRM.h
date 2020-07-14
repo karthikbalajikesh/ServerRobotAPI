@@ -18,4 +18,5 @@ public:
 	vector<GraphNode> retrievePath(vector<int>& previoius);
 	// function to print the node coordinates of the path
 	void PrintPathDetails();
+	vector<pair<float,float>> GetPathVector();
 };

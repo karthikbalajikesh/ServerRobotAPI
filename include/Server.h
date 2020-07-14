@@ -1,5 +1,6 @@
 #pragma once
 
+#include "path.hpp"
 #include "tcp.h"
 #include "behavior.h"
 #include<vector>
@@ -39,9 +40,11 @@ public:
     // We need to make a vector of obstacles in double
     vector<floatpair> ObstacleVector;
     DijkstraPRM PathPlanner;
+    vector<floatpair> Pathway;
+    vector<float> Velocity;
     // will have to include behavioral planner (Inherited)
     // will have to include path.
-
+    Path Waypoints;
 
 
     // Default Constructor
@@ -51,5 +54,9 @@ public:
     void readMessage();
     void deSerialize(boost::asio::streambuf &buf);
     void CreateObstacleVector();
+    void getTrajectory();
+    void PlanPath();
+    void sendMessage();
+
 
 };

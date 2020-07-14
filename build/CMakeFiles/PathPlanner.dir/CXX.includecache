@@ -51,6 +51,8 @@ Graph.h
 ../include/Graph.h
 
 ../include/Server.h
+path.hpp
+../include/path.hpp
 tcp.h
 ../include/tcp.h
 behavior.h
@@ -94,6 +96,28 @@ vector
 utility
 -
 boost/archive/text_oarchive.hpp
+-
+boost/archive/text_iarchive.hpp
+-
+boost/serialization/serialization.hpp
+-
+boost/serialization/access.hpp
+-
+boost/serialization/vector.hpp
+-
+boost/serialization/utility.hpp
+-
+
+../include/path.hpp
+iostream
+-
+fstream
+-
+vector
+-
+boost/archive/text_oarchive.hpp
+-
+utility
 -
 boost/archive/text_iarchive.hpp
 -
